@@ -34,14 +34,14 @@ h1{
 }
 
 
-.question-card {
+.quiz-card {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
   gap: 2rem;
 }
-.question {
+.quiz-text {
   display: flex;
   align-items: center;
   text-align: center;
@@ -55,7 +55,7 @@ h1{
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.4);
 }
 
-.answer {
+.progress-text {
   background-color: aliceblue;
   height: 100px;
   width: 200px;
@@ -64,6 +64,7 @@ h1{
   border: 2px solid black;
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.4);
 }
+
 
 .nav {
   padding: 1rem 2rem;
